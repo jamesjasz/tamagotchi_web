@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TUGAS PAK ALEK</title>
+	<link href="style.css" type="text/css" rel="stylesheet" />
+	<script src="jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="jes.js"></script>
+	<audio id="test" controls loop autoplay>
+		Browser not Supported
+		<source src="buddy.mp3" type="audio/mpeg">
+	</audio>
+</head>
+<body>
+<div id="body">
+<div id="bungkus">
+
+<div id="pagesatu">
+
+	<div id="welcome">
+		<h1><marquee direction="right" behavior="alternate" scrollamount="15">Welcome To Kalbisgotchi</marquee></h1>
+	</div>
+	
+	<div id="credit">
+		<h2>Credit : <br />Sonia<br />James<br />Filipo<br /></h2>
+	</div>
+	
+	<div id="mains">
+		<form name="aksi" action="" method="POST">
+			<input type="button" id="mulaiss" value="Start" />
+		</form>
+	</div>
+	
+</div><!---pagesatu--->
+
+
+<div id="pagedua">
+	<div id="choose">
+		<div id="c">C</div>
+		<div id="h">H</div>
+		<div id="o">O</div>
+		<div id="o2">O</div>
+		<div id="s">S</div>
+		<div id="e">E</div>
+	</div>
+	<div id="pilih">
+		<img src="gambar/gambar2/simpson_1.png" /><img src="gambar/gambar3/mirai_2.png" id="cewek" />
+	</div>
+	
+	<div id="tengahh">
+		<div id="logo">
+		</div>
+	</div>
+
+	<div id="milih">
+		<div id="kirs">
+			<img src="gambar/arrow-kiri.png" />
+		</div> 
+		<div id="kans">
+			<img src="gambar/arrow-kiri.png" />
+		</div>
+	</div>
+
+	<div id="name">
+		<input type="text" id="nama" placeholder="Nama Pemain" value="" />	
+	</div>
+	
+	<div id="starts">
+		<form name="actionn" action="" method="POST">
+		<input type="button" id="startgame" value="Ok!" />
+	</form>
+	</div>
+	
+</div><!---/pagedua--->
+
+<div id="pagetiga">
+	<div id="top-panel-kiri">
+		<div id="semester-stat" class="level-wrap">
+			<span id="titlekir">Semester<br /></span>
+			<span id="semester-level"></span>
+		</div>
+	</div>
+	<div id="top-panel-tengah">
+		<div id="top-panel-up">
+			<div id="meal-stat" class="level-wrap">
+				<span class="title">MEAL</span>
+				<div class="bungkus-stat">
+					<div id="meal-level" class="level"></div>
+				</div>
+			</div>
+			<div id="refresh-stat" class="level-wrap">
+				<span class="title">REFRESHING</span>
+				<div class="bungkus-stat">
+					<div id="refresh-level" class="level"></div>
+				</div>
+			</div>
+			<div id="rest-stat" class="level-wrap">
+				<span class="title">REST</span>
+				<div class="bungkus-stat">
+					<div id="rest-level" class="level"></div>
+				</div>
+			</div>
+		</div>
+		<div id="top-panel-do">
+			<div id="learn-stat" class="level-wrap">
+				<span class="title">LEARNING</span>
+				<div id="bungkus-learn">
+					<div id="learn-level" class="level"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="top-panel-kanan">
+		<div id="waktuu">
+			<div id="hari"></div>
+			<div id="jam"></div>
+		</div>
+	</div>
+	
+	<div id="arena">
+		<div id="rasa"></div>
+		<div id="character"></div>
+		<span id="namakarakter"><span id="namas"></span></span>
+	</div>
+	
+	<div id="action">
+		<div id="but_1">
+			<img src="gambar/but_1.png" id="makan" class="buttoon"/>
+		</div>
+		<div id="but_2">
+			<img src="gambar/but_2.png" id="hangout" class="buttoon"/>
+		</div>
+		<div id="but_3">
+			<img src="gambar/but_3.png" id="istirahat" class="buttoon"/>
+		</div>
+		<div id="but_4">
+			<img src="gambar/but_4.png" id="baca" class="buttoon"/>
+		</div>
+		<div id="but_5">
+			<img src="gambar/but_5.png" id="diskusi" class="buttoon"/>
+		</div>
+		<div id="but_6">
+			<img src="gambar/but_6.png" id="kuliah" class="buttoon"/>
+		</div>
+	</div>
+
+</div><!---pagetiga--->
+
+<div id="pageempat">
+	<div id="graduate">
+		<h1>CONGRATULATION</h1>
+		<div id="balon-kiri" class="balon">
+			<img src="gambar/balon.png" />
+		</div>
+		<div id="lulus_c"></div>
+		<div id="balon-kanan" class="balon">
+			<img src="gambar/balon.png" />
+		</div>
+	</div>
+</div>
+
+<div id="pagelima">
+	<div id="endgame">
+		<img src="gambar/rip.png">
+		<br />
+		<h1>Mau main lagi?</h1>
+		<input type="button" id="okay" value="YA" />
+		<input type="button" id="not" value="TIDAK" />
+	</div>
+</div>
+
+<div id="pageenam">
+		<div id="soal1">
+			<h1>Quiz</h1>
+			<label id="l1"></label>
+			<form action="" method="post">
+				<input id="a1"
+						type="text"
+						placeholder="answer"/>
+			</form>
+			<button id="jawab1">OK</button>
+		</div>
+		<div id="soal2">
+			<h1>Quiz</h1>
+			<form action="" method="post">
+				<input id="a2"
+						type="text"
+						placeholder="answer"/>
+			</form>
+			<button id="jawab2">OK</button>
+		</div>
+		<div id="soal3">
+			<h1>Quiz</h1>
+			<form action="" method="post">
+				<input id="a3"
+						type="text"
+						placeholder="answer"/>
+			</form>
+			<button id="jawab3">OK</button>
+		</div>
+		<div id="soal4">
+			<h1>Quiz</h1>
+			<form action="" method="post">
+				<input id="a4"
+						type="text"	
+						placeholder="answer"/>
+			</form>
+			<button id="jawab4">OK</button>
+		</div>
+		<div id="soal5">
+			<h1>Quiz</h1>
+			<form action="" method="post">
+				<input id="a5"
+						type="text"
+						placeholder="answer"/>
+			</form>
+			<button id="jawab5">OK</button>
+		</div>
+		<div id="soal6">
+			<h1>Quiz</h1>
+			<form action="" method="post">
+				<input id="a6"
+						type="text"
+						placeholder="answer"/>
+			</form>
+			<button id="jawab6">OK</button>
+		</div>
+		<div id="soal7">
+			<h1>Quiz</h1>
+			<form action="" method="post">
+				<input id="a7"
+						type="text"
+						placeholder="answer"/>
+			</form>
+			<button id="jawab7">OK</button>
+		</div>
+		<div id="soal8">
+			<h1>Quiz</h1>
+			<form action="" method="post">
+				<input id="a8"
+						type="text"
+						placeholder="answer"/>
+			</form>
+			<button id="jawab8">OK</button>
+		</div>
+</div>
+
+
+</div><!---bungkus--->
+<br />
+<marquee direction="right" behavior="scroll" scrollamount="10">
+<div id="waktuke2">
+
+</div>
+</marquee>
+
+</div><!---body--->
+</body>
+</html>

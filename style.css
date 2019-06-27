@@ -1,0 +1,394 @@
+/* style.css */
+
+body {
+	font-family: "comic sans ms";
+	margin: 0 auto;
+	width: 1600px;
+}
+
+#body {
+	background:url('gambar/siang3.jpg');
+	background-size:cover;
+	height:650px;
+	padding-top: 60px;
+}
+
+#pagesatu {
+	text-align: center;
+}
+
+#pilih {
+	margin-top: -60px;
+}
+
+#pilih img{
+	width: 210px;
+	height: 240px;
+	display: none;
+	margin: 83px 440px;
+}
+
+#milih img{
+	width: 80px;
+	height: 150px;
+}
+
+#kirs{
+	float: left;
+	display: inline-block;
+	margin-top: -264px;
+	margin-left: 203px;
+}
+
+#kans{
+	float: right;
+	display: inline-block;
+	margin-top: -264px;
+	margin-right: 203px;
+}
+
+#kans img{
+    transform: rotate(180deg);
+}
+
+#bungkus {
+	width: 1100px;
+	height: 550px;
+	margin: 0px auto;
+	background: #d9cece;
+	border: 10px solid black;
+	border-radius: 8px;
+}
+
+#rasa {
+	background: url('gambar/awan4.png');
+	width: 95px;
+	height: 49px;
+	padding-top: 16px;
+	margin-left: 498px;
+}
+
+#top-panel-kiri {
+	display: inline-block;
+	background: grey;
+	border-radius: 5px;
+	border: 5px ridge #1C0D80;
+	text-align: center;
+	width: 123px;
+	margin-left: 28px;
+	margin-right: 87px;
+	height: 55px;
+}
+
+
+#top-panel-tengah {
+	display: inline-block;
+	margin-top: 5px;
+	border-radius: 5px;
+	border: 3px solid #1C0D80;
+	width: 630px;
+	margin-right: 58px;
+}
+
+#top-panel-kanan {
+	display:inline-block;
+	width: 100px;
+}
+
+#waktuu {
+	border: 6px solid brown;
+	padding-right: 108px;
+	border-radius: 23px;
+	background: red;
+}
+
+.level-wrap {
+	font-size: 18px;
+	font-weight: bold;	
+}
+
+
+#meal-level {
+	height: 10px;
+	width: 50px;
+	transition: all 1.5s;
+}
+
+#refresh-level {
+	height: 10px;
+	width: 50px;
+	transition: all 1.5s;
+}
+
+#rest-level {
+	height: 10px;
+	width: 50px;
+	transition: all,1.5s;
+}
+
+#learn-level {
+	height: 10px;
+	width: 10px;
+	background-color: blue;
+	transition: all,2s;
+}
+
+#meal-stat {
+	display: inline-block;
+	margin-left: 13px;
+}
+
+#refresh-stat {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+#rest-stat {
+	display: inline-block;
+	margin-left: 41px;
+}
+
+.bungkus-stat{
+	height: 10px;
+	width: 150px;
+	border: 3px solid black;
+}
+
+#top-panel-do {
+	margin-left: 13px;
+	margin-top: 3px;
+}
+
+#bungkus-learn {
+	height: 10px;
+	width: 550px;
+	border: 3px solid black;
+}
+
+#hari {
+	margin-left: 30px;
+	font-size: 18px;
+	font-family: Century;
+}
+
+#jam {
+	margin-left: 25px;
+	font-size: 23px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#character {
+	margin-top: -8px;
+}
+
+#character img {
+	width: 200px;
+	height: 215px;
+}
+
+#arena {
+	text-align: center;
+}
+
+#namakarakter {
+	font-size: 17px;
+	font-family: Georgia;
+}
+
+
+#name {
+	margin-top: 19px;
+    margin-left: 10px;
+}
+
+#tengahh {
+	text-align: center;
+	margin-top: -76px;
+	margin-left: 516px;
+}
+
+#logo {
+	border: 3px dashed black;
+	border-radius: 25px;
+	width: 65px;
+	height: 40px;
+	text-align: center;
+}
+
+#logo img{
+	width: 50px;
+	height: 40px;
+}
+
+
+input[type="button"] {
+	padding: 4px 12px;
+	cursor: pointer;
+}
+
+#pagetiga input[type="button"] {
+	padding: 4px 12px;
+	cursor: pointer;
+	width: 120px;
+}
+
+input[type="text"] {
+	padding: 6px 59px;
+	margin-left: 407px;
+	text-align: center;
+}
+
+#starts{
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 11px;
+}
+
+#pagetiga {
+	background:url('gambar/lok7.jpg');
+	width: 1100px;
+	height:550px;
+	background-repeat: no-repeat;
+}
+
+#action {
+	margin-top: 22px;
+}
+
+#pageempat {
+	display: none;
+}
+
+#pagelima {
+	display: none;
+	text-align: center;
+}
+
+#endgame {
+	margin-left: 216px;
+	margin-top: 40px;
+}
+
+#graduate {
+	text-align: center;
+}
+
+.balon img {
+	width: 150px;
+	height: 200px;
+}
+
+.balon {
+	display: inline-block;
+}
+
+#pageempat {
+	margin-left: 188px;
+}
+
+#lulus_c {
+	display: inline-block
+}
+
+.buttoon {
+	width: 100px;
+	height: 75px;
+	margin-left: 70px;
+    margin-top: 20px;
+}
+
+.buttoon:hover {
+	box-shadow: 0px 0px 50px 40px white;
+	margin-top: -30px;
+}
+
+#makan:hover{
+	height: 90px;
+}
+
+#hangout:hover{
+	height: 90px;
+}
+
+#istirahat:hover{
+	height: 90px;
+}
+
+#baca:hover{
+	height: 90px;
+}
+
+#diskusi:hover{
+	height: 90px;
+}
+
+#kuliah:hover{
+	height: 90px;
+}
+
+#but_1 {
+	display: inline-block;
+}
+
+#but_2 {
+	display: inline-block;
+}
+
+#but_3 {
+	display: inline-block;
+}
+
+#but_4 {
+	display: inline-block;
+}
+
+#but_5 {
+	display: inline-block;
+}
+
+#but_6 {
+	display: inline-block;
+}
+
+#choose {
+	text-align: center;
+	margin-top: 26px;
+}
+
+#c {
+	display: inline-block;
+	color: red;
+	font-size: 30px;
+}
+
+#h {
+	display: inline-block;
+	color: yellow;
+	font-size: 30px;
+}
+
+#o {
+	display: inline-block;
+	color: green;
+	font-size: 30px;
+}
+
+#o2 {
+	display: inline-block;
+	color: blue;
+	font-size: 30px;
+}
+
+#s {
+	display: inline-block;
+	color: orange;
+	font-size: 30px;
+}
+
+#e {
+	display: inline-block;
+	color: purple;
+	font-size: 30px;
+}
